@@ -1,0 +1,80 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 300px;
+    gap:10px;
+    background-color: royalblue;
+    padding: 10px;
+}
+
+.item{
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: royalblue;
+}
+/* item 시작될 행을 지정 */
+.row-start2{grid-row-start: 2;}
+.row-start4-4{
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.row-colum5-4{
+    grid-row: 1 / 3;
+    grid-column: 1 / 4;
+}
+
+.grid-container3{
+    display:grid ;  
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 100px ;
+    gap: 10px;
+    padding: 10px;
+    background-color: royalblue;
+}
+
+.one{
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+.two{
+    grid-row:1/3;
+    grid-column: 2/4;
+}
+.three{
+    grid-row:2/5;
+    grid-column: 1;
+}
+.four{
+    grid-row:3;
+    grid-column: 3;
+}
+.five{
+    grid-row:4;
+    grid-column: 2;
+}
+.six{
+    grid-row:4;
+    grid-column: 3;
+}
+
+/* item 영역의 이름을 지정 */
+.area{grid-area: title;}
+
+.grid-container4{
+    display: grid;
+    gap:10px;
+    grid-template-areas:'title title title . .' ;
+    background-color: royalblue;
+    padding: 10px;
+}
