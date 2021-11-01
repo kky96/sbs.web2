@@ -1,7 +1,8 @@
 .container{
     position: relative;
-    margin: 0 auto;
-    width: 1200px;
+    margin: 100 auto;
+    width: 1400px;
+    padding: 50px;
     height: 500px;
     border: 3px dashed orange;
     box-sizing:border-box ;
@@ -37,14 +38,12 @@
     z-index: -1;
 }
 
-.translate1:hover{
-    transform: translate(45px, 45px);
+.scale1:hover{
+    transform: scale(2);
 }
-
-.translate2:hover{
-    transform: translateX(45px)
+.scale2:hover{
+    transform: scaleX(2);
 }
-
-.translate3:hover{
-    transform: translateY(45px);
+.scale3:hover{
+    transform: scaleY(2);
 }
