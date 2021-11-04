@@ -195,7 +195,7 @@ section.visual .slide li .find:after{
     left: 0;
 }
 
-section.visual .slide li .find:hover::after{
+section.visual .slide li .find:hover:after{
     width: 100%;
     color: #ddd;
     transition: all 0.5s;
